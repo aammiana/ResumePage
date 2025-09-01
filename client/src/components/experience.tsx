@@ -1,9 +1,9 @@
 export default function Experience() {
   const experiences = [
     {
-      title: "Expert Digital Analytics",
-      company: "VEON",
-      period: "Nov 2024 – Apr 2025",
+      title: "Data Analyst",
+      company: "Under CTRL",
+      period: "Nov 2024 – Present",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
       achievements: [
         "Automated Data Extraction Workflow using AI Tool with Python and OpenAI API integration, improving efficiency by 50%",
