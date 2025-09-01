@@ -25,7 +25,7 @@ export default function Experience() {
       ]
     },
     {
-      title: "Data Consultant (Performance Evaluation and Analysis)",
+      title: "Data Analyst",
       company: "In Digital Group",
       period: "May 2022 – Jun 2023",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
