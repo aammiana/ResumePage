@@ -38,12 +38,12 @@ export default function Contact() {
     {
       icon: "fas fa-envelope",
       title: "Email", 
-      value: "Email available on request"
+      value: "ansabarfanmiana@gmail.com"
     },
     {
       icon: "fab fa-linkedin",
       title: "LinkedIn",
-      value: "Connect on LinkedIn"
+      value: "linkedin.com/in/ansabarfanmiana"
     }
   ];
 

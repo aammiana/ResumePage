@@ -48,13 +48,13 @@ export default function Home() {
               <p className="text-muted-foreground">&copy; 2024 Ansab Arfan Miana. All rights reserved.</p>
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-linkedin">
+              <a href="https://www.linkedin.com/in/ansabarfanmiana" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-linkedin">
                 <i className="fab fa-linkedin text-xl"></i>
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-github">
                 <i className="fab fa-github text-xl"></i>
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-email">
+              <a href="mailto:ansabarfanmiana@gmail.com" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-email">
                 <i className="fas fa-envelope text-xl"></i>
               </a>
             </div>
