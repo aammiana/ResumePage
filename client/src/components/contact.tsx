@@ -33,12 +33,7 @@ export default function Contact() {
     {
       icon: "fas fa-map-marker-alt",
       title: "Location",
-      value: "Melbourne, VIC, Australia"
-    },
-    {
-      icon: "fas fa-phone", 
-      title: "Phone",
-      value: "+61 480 806 610"
+      value: "Pakistan"
     },
     {
       icon: "fas fa-envelope",

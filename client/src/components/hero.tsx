@@ -26,11 +26,7 @@ export default function Hero() {
             <div className="flex items-center gap-6 mt-8">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <i className="fas fa-map-marker-alt text-primary"></i>
-                <span data-testid="text-location">Melbourne, VIC</span>
-              </div>
-              <div className="flex items-center gap-2 text-muted-foreground">
-                <i className="fas fa-phone text-primary"></i>
-                <span data-testid="text-phone">+61 480 806 610</span>
+                <span data-testid="text-location">Pakistan</span>
               </div>
             </div>
           </div>
