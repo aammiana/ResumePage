@@ -27,25 +27,13 @@ export default function Experience() {
     {
       title: "Data Consultant (Performance Evaluation and Analysis)",
       company: "In Digital Group",
-      period: "Sep 2022 – Jun 2023",
+      period: "May 2022 – Jun 2023",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
       achievements: [
         "Automated ETL processes from multiple sources using APIs and Power Query into Excel relational Data Models",
         "Designed interactive Power BI dashboards tracking Revenue, ROI, and Customer Conversion metrics",
         "Analyzed Customer Acquisition funnel to identify and fix process leakages, improving Conversion Rate",
         "Facilitated cross-functional communication presenting actionable insights to senior leadership"
-      ]
-    },
-    {
-      title: "Associate Business Analyst (Performance Evaluation and Analysis)",
-      company: "Vyro.AI",
-      period: "May 2022 – Sep 2022",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
-      achievements: [
-        "Designed data-driven advertising strategies using SQL, Pandas, and Excel for improved revenue outcomes",
-        "Applied A/B testing via Firebase to measure design iteration impact on user retention and engagement",
-        "Consolidated multi-source marketing data (Ad Mob, Meta, Google Ads, GA4) into unified Power BI dashboards",
-        "Authored end-to-end SOPs for business operations, streamlining workflows for scalable growth"
       ]
     }
   ];
