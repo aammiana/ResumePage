@@ -15,9 +15,7 @@ export default function Navigation() {
     <nav className="fixed top-0 left-0 right-0 bg-card/95 backdrop-blur-sm border-b border-border z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="font-bold text-xl text-primary" data-testid="text-logo">
-            Ansab Miana
-          </div>
+          <div className="font-bold text-xl text-primary" data-testid="text-logo">Ansab Arfan Miana </div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
@@ -34,7 +32,6 @@ export default function Navigation() {
           </button>
         </div>
       </div>
-      
       {/* Mobile Navigation */}
       <div className={`mobile-menu fixed top-16 right-0 w-64 h-full bg-card shadow-lg md:hidden ${isMobileMenuOpen ? 'open' : ''}`}>
         <div className="flex flex-col p-6 space-y-4">
