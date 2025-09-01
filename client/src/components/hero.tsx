@@ -23,12 +23,7 @@ export default function Hero() {
                 View Experience
               </a>
             </div>
-            <div className="flex items-center gap-6 mt-8">
-              <div className="flex items-center gap-2 text-muted-foreground">
-                <i className="fas fa-map-marker-alt text-primary"></i>
-                <span data-testid="text-location">Pakistan</span>
-              </div>
-            </div>
+            
           </div>
           
           <div className="animate-fade-in-up">
