@@ -55,8 +55,8 @@ export default function Contact() {
           <p className="text-muted-foreground text-lg" data-testid="text-contact-subtitle">Ready to drive data-driven insights for your organization</p>
         </div>
         
-        <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12">
+        <div className="max-w-2xl mx-auto">
+          <div className="flex justify-center">
             <div>
               <h3 className="text-xl font-semibold mb-6" data-testid="text-contact-info-title">Contact Information</h3>
               <div className="space-y-6">
@@ -72,58 +72,6 @@ export default function Contact() {
                   </div>
                 ))}
               </div>
-            </div>
-            
-            <div>
-              <h3 className="text-xl font-semibold mb-6" data-testid="text-form-title">Send a Message</h3>
-              <form className="space-y-6" onSubmit={handleSubmit}>
-                <div>
-                  <label className="block text-sm font-medium mb-2" data-testid="label-name">Name</label>
-                  <input 
-                    type="text" 
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary" 
-                    placeholder="Your name"
-                    required
-                    data-testid="input-name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2" data-testid="label-email">Email</label>
-                  <input 
-                    type="email" 
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary" 
-                    placeholder="your.email@example.com"
-                    required
-                    data-testid="input-email"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2" data-testid="label-message">Message</label>
-                  <textarea 
-                    rows={5} 
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary" 
-                    placeholder="Your message..."
-                    required
-                    data-testid="textarea-message"
-                  />
-                </div>
-                <button 
-                  type="submit" 
-                  className="w-full bg-primary text-primary-foreground py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
-                  data-testid="button-submit"
-                >
-                  Send Message
-                </button>
-              </form>
             </div>
           </div>
         </div>
